@@ -1,13 +1,13 @@
 {
-    "name": "drupal/node_article",
+    "name": "node_generic_article",
     "description": "An article (node) with a title, content fields with summary and a thumbnail image.",
-  "type": "module",
-  "devDependencies": {
-    "@commitlint/cli": "^21.2.3",
-    "@commitlint/config-conventional": "^21.2.3",
-    "husky": "^9.1.7"
-  },
-  "scripts": {
-    "prepare": "husky"
-  }
+    "type": "module",
+    "devDependencies": {
+        "@commitlint/cli": "^21.2.3",
+        "@commitlint/config-conventional": "^21.2.3",
+        "husky": "^9.1.7"
+    },
+    "scripts": {
+        "prepare": "husky"
+    }
 }

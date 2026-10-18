@@ -1,5 +1,5 @@
 name: 'Node Article'
-machine_name: 'node_article'
+machine_name: 'node_generic_article'
 description: 'An article content type (node) that provides a textarea and title.'
 # lifecycle:
 # lifecycle_link:
@@ -17,7 +17,7 @@ dependencies:
   - drupal:text
   - drupal:user
   - drupal:views
-  - fields_node_global:fields_node_global
+  - field_global_text_with_summary:field_global_text_with_summary
 # test_dependencies:
 # configure:
 # configure_parameters:
