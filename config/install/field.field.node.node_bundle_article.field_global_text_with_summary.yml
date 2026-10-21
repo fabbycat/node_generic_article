@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_global_text_with_summary
+    - field.storage.node.field_shared_text_with_summary
     - node.type.node_bundle_article
   module:
     - field
-    - field_global_text_with_summary
+    - field_shared_text_with_summary
     - node
     - text
-id: node.node_bundle_article.field_global_text_with_summary
-field_name: field_global_text_with_summary
+id: node.node_bundle_article.field_shared_text_with_summary
+field_name: field_shared_text_with_summary
 entity_type: node
 bundle: node_bundle_article
 label: Content
