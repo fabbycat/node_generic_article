@@ -1,5 +1,5 @@
 {
-    "name": "node_generic_article",
+    "name": "node_generic_article NodeJS development tools",
     "description": "An article (node) with a title, content fields with summary and a thumbnail image.",
     "type": "module",
     "devDependencies": {
